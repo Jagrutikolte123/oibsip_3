@@ -1,0 +1,40 @@
+#todo-wrap, #todo-wrap * {
+    font-family: ariel;
+    box-sizing: border-box;
+  }
+  #todo-wrap input, .todo-item {
+    border: 0;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  #todo-wrap {
+    background: #d4e5f7;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  #todo-add, .todo-row {
+    display: flex;
+    align-items: stretch;
+  }
+  #todo-item, .todo-item {
+    flex-grow: 1;
+    background: #eacb6f;
+  }
+  .todo-item.todo-ok { background: #fdfdfd; }
+  .todo-item.editing { background: #212113; }
+  #todo-save, .todo-del, .todo-edit, .todo-done {
+    color: #141413;
+    cursor: pointer;
+  }
+  #todo-save { background: #e79dfc; }
+  .todo-del { 
+    background: #f14c83;
+    margin-right: 10px; }
+  
+  .todo-edit{ 
+    background: #0485db;
+    margin-right: 10px; }
+  .todo-done { 
+    background: #e3b6f0; }
